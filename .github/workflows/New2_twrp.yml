@@ -95,4 +95,4 @@ jobs:
        tag_name: Blackview Tab_13-A12
        name: TWRP37x_12-NoCrypt
        files: | 
-         twrp/out/target/product/Tab_13/recovery*.img
+         twrp/out/target/product/Tab_13/*recovery*.img
