@@ -23,7 +23,7 @@ CPU	         |  Octa-core (Cortex-A75 2x2.0 GHz + Cortex-A55 6x1.8 GHz)
 GPU	         |  Mali-G52 MC2
 RAM / ROM	         |  6GB / 128GB
 
-[Blackview Tab 13](https://fdn2.gsmarena.com/vv/pics/blackview/blackview-tab13-1.jpg)
+![Blackview Tab 13](https://fdn2.gsmarena.com/vv/pics/blackview/blackview-tab13-1.jpg)
 
 <details><summary>TWRP Pictures - Click to open</summary>
 <p>
