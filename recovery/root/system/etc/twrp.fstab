@@ -10,7 +10,7 @@
 
 # Core Partitions
 /metadata             ext4    /dev/block/by-name/md_udc         flags=backup=1;display="metadata"
-/data            ext4    /dev/block/by-name/userdata            flags=encryptable=footer;wipeingui;wipeduringfactoryreset
+/data            ext4    /dev/block/by-name/userdata            flags=encryptable=/dev/block/platform/bootdevice/by-name/metadata;wipeingui;wipeduringfactoryreset
 
 # Common partition
 /cache           emmc    /dev/block/by-name/cache		 flags=display="cache";backup=0;wipeingui;wipeduringfactoryreset
