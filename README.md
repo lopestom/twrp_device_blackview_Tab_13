@@ -23,8 +23,16 @@ CPU	         |  Octa-core (Cortex-A75 2x2.0 GHz + Cortex-A55 6x1.8 GHz)
 GPU	         |  Mali-G52 MC2
 RAM / ROM	         |  6GB / 128GB
 
+<details><summary>TWRP Pictures - Click to open</summary>
+<p>
 
-![Blackview Tab 13](https://fdn2.gsmarena.com/vv/pics/blackview/blackview-tab13-1.jpg)
+![IMG_20240521_194013_558_resized](https://github.com/lopestom/twrp_device_blackview_Tab_13/assets/25868008/5bf4ec62-a11d-4df5-ab59-66781178acab)
+![IMG_20240521_194023_990_resized](https://github.com/lopestom/twrp_device_blackview_Tab_13/assets/25868008/f59856fb-5646-4ab2-801d-9cd167a39c0c)
+![IMG_20240521_194050_288_resized](https://github.com/lopestom/twrp_device_blackview_Tab_13/assets/25868008/4297036d-787f-463a-8bec-ad65da56cb37)
+![IMG_20240521_194032_717_resized](https://github.com/lopestom/twrp_device_blackview_Tab_13/assets/25868008/d5f99535-527a-40e7-8f49-f828de7278b4)
+
+</p>
+</details>
 
 ## Big thanks to:
 - [2mkl from 4pda](https://4pda.to/forum/index.php?showuser=254002) for tests.
