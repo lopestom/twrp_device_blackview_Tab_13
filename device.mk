@@ -17,21 +17,6 @@
 
 LOCAL_PATH := device/blackview/Tab_13
 
-# Product characteristics
-PRODUCT_CHARACTERISTICS := tablet
-
-# Installs gsi keys into ramdisk, to boot a developer GSI with verified boot.
-#$(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
-
-# Enable project quotas and casefolding for emulated storage without sdcardfs
-$(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
-
-# Allow userspace reboots
-#$(call inherit-product, $(SRC_TARGET_DIR)/product/userspace_reboot.mk)
-
-# Treble
-BOARD_VNDK_VERSION := current
-
 # Dynamic Partitions stuff
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
@@ -40,6 +25,11 @@ PRODUCT_TARGET_VNDK_VERSION := 31
 
 # API
 PRODUCT_SHIPPING_API_LEVEL := 31
+
+PRODUCT_PLATFORM := mt6768
+
+# Enable project quotas and casefolding for emulated storage without sdcardfs
+$(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 
 # fastbootd stuff
 PRODUCT_PACKAGES += \

@@ -13,20 +13,16 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-LOCAL_PATH := device/blackview/Tab_13
 
-# Release name
-PRODUCT_RELEASE_NAME := Tab_13
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
-$(call inherit-product, $(SRC_TARGET_DIR)/product/base.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 
 # Inherit from device
 $(call inherit-product, device/blackview/Tab_13/device.mk)
 
 # Inherit some common twrp stuff.
-#$(call inherit-product, vendor/omni/config/common_tablet.mk)
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Device identifier. This must come after all inclusions
