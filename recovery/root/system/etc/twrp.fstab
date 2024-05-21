@@ -1,4 +1,4 @@
-#fstab file by lopestom for Alldocube X_Game_V1.0_20220112 - (T1023)-EN-R07 - p901a-t1023-64-128g8g-hdp-a1-bom1-r0
+#fstab file by lopestom for Tablet Blackview Tab 13 - Tab 13_NEU_TP737_V1.0_01_20221101V08 - TP737_DK_DK039_69_S0_V1.4.9_S221101
 /system_root        ext4    /dev/block/mapper/system              flags=backup=1;wipeingui;logical;display="System_root"
 /vendor             ext4    /dev/block/mapper/vendor             flags=backup=1;wipeingui;logical;display="Vendor"
 /product            ext4    /dev/block/mapper/product             flags=backup=1;wipeingui;logical;display="Product"
