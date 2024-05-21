@@ -1,4 +1,4 @@
-# TWRP device tree for Tablet Blackview Tab 13 - p901a-t1023-64-128g8g-hdp-a1-bom1-r0
+# TWRP device tree for Tablet Blackview Tab 13
 
 MTK Helio G85 - MT6768
 
