@@ -21,7 +21,7 @@ LOCAL_PATH := device/blackview/Tab_13
 PRODUCT_CHARACTERISTICS := tablet
 
 # Installs gsi keys into ramdisk, to boot a developer GSI with verified boot.
-$(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
+#$(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 
 # Enable project quotas and casefolding for emulated storage without sdcardfs
 $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
