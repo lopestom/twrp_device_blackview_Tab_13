@@ -27,7 +27,7 @@ PRODUCT_CHARACTERISTICS := tablet
 $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 
 # Allow userspace reboots
-$(call inherit-product, $(SRC_TARGET_DIR)/product/userspace_reboot.mk)
+#$(call inherit-product, $(SRC_TARGET_DIR)/product/userspace_reboot.mk)
 
 # Treble
 BOARD_VNDK_VERSION := current
