@@ -173,15 +173,15 @@ TW_INCLUDE_CRYPTO := false
 #TW_CRYPTO_KEY_LOC := "footer"
 
 # Additional binaries & libraries needed for recovery
-TARGET_RECOVERY_DEVICE_MODULES += \
-    ashmemd_aidl_interface-cpp \
-    libashmemd_client
+#TARGET_RECOVERY_DEVICE_MODULES += \
+#    ashmemd_aidl_interface-cpp \
+#    libashmemd_client
 #    libkeymaster4 \
 #    libpuresoftkeymasterdevice
 
 TW_RECOVERY_ADDITIONAL_RELINK_LIBRARY_FILES += \
-    $(TARGET_OUT_SHARED_LIBRARIES)/ashmemd_aidl_interface-cpp.so \
-    $(TARGET_OUT_SHARED_LIBRARIES)/libashmemd_client.so
+#    $(TARGET_OUT_SHARED_LIBRARIES)/ashmemd_aidl_interface-cpp.so \
+#    $(TARGET_OUT_SHARED_LIBRARIES)/libashmemd_client.so
 #    $(TARGET_OUT_SHARED_LIBRARIES)/libkeymaster4.so \
 #    $(TARGET_OUT_SHARED_LIBRARIES)/libpuresoftkeymasterdevice.so
 
@@ -233,7 +233,7 @@ TW_ROTATION := 90
 #TW_ROTATION := 180
 RECOVERY_TOUCHSCREEN_SWAP_XY := true
 RECOVERY_TOUCHSCREEN_FLIP_Y := true
-BOARD_HAS_FLIPPED_SCREEN := true
+#BOARD_HAS_FLIPPED_SCREEN := true
 
 # Screen density
 TARGET_SCREEN_DENSITY := 240
@@ -265,9 +265,12 @@ TW_EXCLUDE_APEX := true
 #TW_EXCLUDE_LPDUMP := true
 
 # Tools
-TW_INCLUDE_PYTHON := true
-TW_INCLUDE_NANO := true
-TW_INCLUDE_TZDATA := true
-TW_INCLUDE_BASH := true
-TW_INCLUDE_LPTOOLS := true
-TW_INCLUDE_LPDUMP := true
+#TW_INCLUDE_PYTHON := true
+#TW_INCLUDE_NANO := true
+#TW_INCLUDE_TZDATA := true
+#TW_INCLUDE_BASH := true
+#TW_INCLUDE_LPTOOLS := true
+#TW_INCLUDE_LPDUMP := true
+TW_INCLUDE_RESETPROP := true
+TW_INCLUDE_LIBRESETPROP :=true
+TW_INCLUDE_FASTBOOTD := true
